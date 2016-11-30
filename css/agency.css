@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/new-header.jpg');
+  background-image: url('../img/PANO.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -553,12 +553,12 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
-/*section#contact {
+section#contact {
   background-color: #222222;
   background-image: url('../img/resume.png');
   background-position: center;
   background-repeat: no-repeat;
-}
+/*}
 section#contact .section-heading {
   color: white;
 }

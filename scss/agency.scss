@@ -288,8 +288,8 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }                
-            }            
+                }
+            }
         }
         .portfolio-caption {
             max-width: 400px;
@@ -574,7 +574,7 @@ section#contact {
        font-weight: 700;
        color: $gray-lighter;
     }
-    :-ms-input-placeholder {  
+    :-ms-input-placeholder {
        @include heading-font;
        font-weight: 700;
        color: $gray-lighter;
@@ -665,11 +665,11 @@ ul.social-buttons {
             font-size: 16px;
         }
         ul.list-inline {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             margin-top: 0;
         }
         img {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
     }
     .close-modal {
@@ -704,8 +704,8 @@ ul.social-buttons {
                 -webkit-transform: rotate(90deg);
                 /* Safari and Chrome */
                 z-index:1052;
-            }            
-        }        
+            }
+        }
     }
     .modal-backdrop {
         opacity: 0;
