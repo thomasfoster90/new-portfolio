@@ -558,12 +558,23 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background: url(../img/resume.jpg) center;  background-position: center;
-  background-repeat: no-repeat;
+  /*background: url(../img/resume.jpg) center;  background-position: center;
+  background-repeat: no-repeat;*/
 }
 #thomas {
   width: 600px;
 }
+  .resume-content {
+    width: 100%;
+}
+@media (min-width: 40em) {
+  /* Probably some parent element that limits the img width */
+  .resume-content {
+    width: 80%;
+  }
+}
+}
+
 
 /*
 section#contact .section-heading {
