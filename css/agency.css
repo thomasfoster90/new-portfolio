@@ -1,12 +1,18 @@
-/*!
- * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+/* Font Faces */
+@font-face {
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('Cubano-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
+}
+
 .text-muted {
   color: #777777;
 }
@@ -225,7 +231,8 @@ fieldset[disabled] .btn-xl.active {
     font-size: 1.5em;
   }
 }
-header {
+
+header{
   background-image: url('../img/PANO.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -576,58 +583,50 @@ section#contact {
 #resume{
   text-align: -webkit-center;
 }
+.more-projects{
+  text-align: center;
+}
+.bio{
+  font-family: 'Nunito-Regular'Helvetica, Arial, sans-serif;
+}
+/*Animations*/
+.js-wp-1{
+  opacity: 0;
+}
+.js-wp-1.animated{
+  opacity: 1;
+}
+.js-wp-2{
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+.js-wp-2.animated{
+  opacity: 2;
+}
+.js-wp-3{
+  opacity: 0;
+  animation-delay: 0.5s;
 
+}
+.js-wp-3.animated{
+  opacity: 2;
+}
+.js-wp-4{
+  opacity: 0;
+  animation-delay: 1s;
 
-/*
-section#contact .section-heading {
-  color: white;
 }
-section#contact .form-group {
-  margin-bottom: 25px;
+.js-wp-4.animated{
+  opacity: 1;
 }
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
+.js-wp-5{
+  opacity: 0;
+  animation-delay: 1s;
+
 }
-section#contact .form-group input.form-control {
-  height: auto;
+.js-wp-5.animated{
+  opacity: 1;
 }
-section#contact .form-group textarea.form-control {
-  height: 960px;
-}
-section#contact .form-control:focus {
-  border-color: #fed136;
-  box-shadow: none;
-}
-section#contact ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}*/
-/*section#contact :-moz-placeholder {*/
-  /* Firefox 18- */
-  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact ::-moz-placeholder {*/
-  /* Firefox 19+ */
-  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}*/
-/*section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}*/
-/*section#contact .text-danger {
-  color: #e74c3c;
-}*/
 footer {
   padding: 25px 0;
   text-align: center;
